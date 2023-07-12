@@ -16,13 +16,6 @@ const ImageCards = ({ item, i }) => {
               {item?.user.name}
             </h1>
           </div>
-          {/* <div>
-            if ({item.user.for_hire == true}) {
-              <h1 className="text-white ">available for hire</h1>
-            } else {
-              <h1>not available for hire</h1> 
-            } 
-            </div> */} 
         </div>
       </div>
     </div>

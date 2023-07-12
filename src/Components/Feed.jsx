@@ -8,8 +8,8 @@ const Feed = () => {
   const [searchTerm, setSearchTerm] = useState();
 
   useEffect(() => {
-    fetchFromAPI(`search/photos?page=1&per_page=25&query=${searchTerm}`).then((data) =>
-      setImg(data.results) 
+    fetchFromAPI(`search/photos?page=1&per_page=25&query=${searchTerm}`).then(
+      (data) => setImg(data.results)
     );
   }, [searchTerm]);
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fetchFromAPI } from "../utils/FetchFromAPI";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 import Header from "./Header";
 import Images from "./Images";
 

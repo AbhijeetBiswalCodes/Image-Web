@@ -18,18 +18,19 @@ const Header = ({ setSearchTerm, searchTerm }) => {
           component="form"
           // onSubmit={handleSubmit} 
           sx={{
-            borderRadius: 20,
-            height: 50,
+            borderRadius: 20, 
+            height: 52,
             border: "2px solid #e3e3e3",
-            pl: 3,
+            pl: 2, 
+            pt: "3px", 
             boxShadow: "none",
-            mr: 2,
-            mt: "22px",
+            mr: {xs:1},
+            mt: "20px",
             ml:{md:"2px" , xl:"8px"},
           }}
         >
           <input
-            className="xl:w-[550px] sm:w-[450px] outline-none border-none "
+            className="xl:w-[550px] md:w-[450px] w-[164px]  outline-none border-none "
             placeholder="Search For Images...."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}

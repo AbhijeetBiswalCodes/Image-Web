@@ -9,7 +9,7 @@ const Header = ({ setSearchTerm, searchTerm }) => {
 
   return (
     <div className="h-[100px] w-full sticky top-0 z-50 bg-slate-200">
-      <div className="flex">
+      <div className="flex xl:ml-4">
         <img
           src="https://drive.google.com/uc?id=1I2zBgi5G4CeCA-D315bqyPRV_LUKXvS8"
           className="h-[90px]"
@@ -23,9 +23,9 @@ const Header = ({ setSearchTerm, searchTerm }) => {
             border: "2px solid #e3e3e3",
             pl: 3,
             boxShadow: "none",
-            mr: { sm: 5 },
-            mt: 3,
-            ml: 5,
+            mr: 2,
+            mt: "22px",
+            ml:{md:"2px" , xl:"8px"},
           }}
         >
           <input
